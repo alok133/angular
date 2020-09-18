@@ -1,0 +1,249 @@
+.carousel .carousel-item {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel .carousel-item:first-of-type {
+    background-image: url("/assets/image/Banner-1-min.jpg");
+}
+
+.carousel .carousel-item:nth-of-type(2) {
+    background-image: url("/assets/image/Banner-2-min.jpg");
+}
+
+.carousel .carousel-item:nth-of-type(3) {
+    background-image: url("/assets/image/Banner-3-min.jpg");
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-inner img{
+    position: relative;
+}   
+
+.card-group{
+	margin-top: 7%;
+}
+
+ .card{
+	margin-top: -4%;
+} 
+.card-title{
+	font-family: 'Avenir-Light';
+    font-size: 28px;
+    color: #202020;
+    margin-bottom: 14px;
+    display: inline-block;
+}
+.card-text{
+	font-size: 15px;
+    text-align: left;
+    color: #202020;
+    letter-spacing: 0.5px;
+
+} 
+
+.card-img-overlay {
+    position: absolute;
+    top: 15%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+    border-radius: calc(.25rem - 1px);
+}
+.header-logo{
+    margin-left: -3%;
+}
+.find-wallpaper{
+     margin-left: 5%; 
+    padding: 16px 30px;
+    box-sizing: border-box;
+    background: #7ACDC8;
+    /* font-family: Avenir-Heavy; */ 
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 1.23px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.find-wall{
+    color:#fff;
+}
+
+.nav-link{
+    line-height: 36px;
+    height: 36px;
+    padding: 0px 10px 0px 10px;
+    /* vertical-align:baseline; */
+    width: auto;
+    display: block;
+    color:black;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: left;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0);
+    border: 0;
+    border-radius: 0;
+    font-weight: bold!important;
+    outline: none;
+}
+#navbarDropdown{
+    line-height: 36px;
+    height: 36px;
+    padding: 0px 10px 0px 10px;
+    /* vertical-align:baseline; */
+    width: auto;
+    display: block;
+    color:black;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: left;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0);
+    border: 0;
+    border-radius: 0;
+    font-weight: bold!important;
+    outline: none;
+}
+.gallery{
+    padding: 50px 0px;
+}
+
+.gallery .section-title{
+    position: relative;
+    margin: 50px 0px;
+    width: 100%;
+    font-family: Avenir-Light;
+    font-size: 28px;
+    color: #202020;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: normal;
+}
+
+ .hovereffect{
+ 	height: 100%;
+ 	width: 100%;
+ 	position: relative;
+ 	overflow: hidden;
+ }
+
+ .hovereffect img{
+ 	display: block;
+ 	position: relative;
+
+ }
+
+ .content{
+ 	position: relative;
+ 	top: 45%;
+ 	left: 89%;
+ 	transform: translate(-50%,-50%);
+ 	color: #fff;
+ }
+
+ .hovereffect .overlay{
+ 	position: absolute;
+ 	height: 100%;
+ 	width: 100%;
+ 	overflow-x: hidden;
+ 	top: 0;
+ 	left: 0;
+ 	right: 0;
+ 	opacity: 0;
+ 	transition: .5s ease;
+ 	background: #7acdc8b8;
+ 	
+ }
+
+ .hovereffect:hover .overlay{
+ 	opacity: 1;
+ }
+
+ .footer{
+    background: #E3F3F1;
+    padding: 40px 20px;
+    box-sizing: border-box
+ }
+
+ .foot{
+     margin-top: 5%;
+ }
+
+ .wallpapers{
+    background-color: #e4f3f1;
+    padding: 80px 0px;
+}
+ .link{
+     list-style-type: none;
+     display: flex;
+     margin-left: -12%;
+ }
+ 
+ .col-md-6{
+    padding-bottom: 5%;
+}
+.col-md-5{
+    margin-top: 15%;
+}
+
+.icons{
+    font-size: 43px;
+    margin-top: 9%;
+}
+
+.text-secondary{
+    font-family: Avenir-Light!important;
+    font-size: 12px;
+    color: #202020;
+    letter-spacing: 2.4px;
+    font-weight: normal!important;
+    padding-top: 5%;
+    padding-bottom: 12%;
+
+}
+
+.px-3{
+    border-radius: 13%;
+    background: #fff;
+}
+
+h3{
+    line-height: 32px;
+    font-family: Avenir-Light!important;
+    font-size: 28px;
+    color: #202020;
+    letter-spacing: 2.8px;
+    font-weight: normal!important;
+}
+.text{
+    font-size: 18px;
+    font-family: 'Muli', sans-serif !important;
+    line-height: 1.5;
+    margin-top: 7%;
+}
+.heading{
+    text-align: center;
+    padding-top: 9%;
+    font-family: Avenir-Light;
+    font-size: 28px;
+    color: #202020;
+    letter-spacing: 0.83px;
+    text-align: center;
+    line-height: 38px;
+    font-weight: normal;
+}
+
+ 
+  
+
+ 
+
